@@ -1,0 +1,51 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+#skills {
+    text-align: center; /* centers inline or inline-block elements inside */
+    margin: 40px 0;     /* optional spacing */
+}
+
+#projects {
+    text-align: center; /* centers inline or inline-block elements inside */
+    margin: 40px 0;     /* optional spacing */
+}
+
+#education {
+    text-align: center; /* centers inline or inline-block elements inside */
+    margin: 40px 0;     /* optional spacing */
+}
+
+#contact {
+    text-align: center; /* centers inline or inline-block elements inside */
+    margin: 40px 0;     /* optional spacing */
+}
+
+#resume {
+    font-size: 1.3rem;
+    text-align: center; /* centers inline or inline-block elements inside */
+    margin: 40px 0;     /* optional spacing */
+}
+
+#resume .pdf-container embed {
+    display: inline-block; /* ensures embed respects text-align */
+    max-width: 100%;       /* responsive */
+    height: ;          /* maintains aspect ratio if needed */
+    border: 1px solid #ccc; /* optional border */
+    border-radius: 8px;      /* optional rounding */
+}
+
+#education h2 {
+    text-align: center;   /* centers only the heading */
+    color: #126D71;       /* keep it green */
+}
+
+#education p,
+#education ul,
+#education li {
+    text-align: left;     /* keeps the rest left-aligned */
+    color: #000;          /* black text */
+}
+

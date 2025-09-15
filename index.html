@@ -38,8 +38,8 @@
     }
     header img {
       border: 5px solid #E9ECEF;
-      width: 75px;
-      height: 75px;
+      width: 5px;
+      height: 5px;
       border-radius: 8px;
     }
     nav {
@@ -49,7 +49,7 @@
     }
     nav a {
       font-weight: bold;
-      font-size: 20px;
+      font-size: 18px;
       color: white;
     }
 
@@ -135,12 +135,9 @@
 
     /* Footer */
     footer {
-      background: #126D71;
-      color: white;
-      text-align: center;
-      padding: 15px 0;
-      font-size: 1rem;
-      margin-top: 80px;
+  color: #000000;
+  text-align: center;
+  padding: 12px 0;
     }
 
     /* Responsive */
@@ -156,22 +153,24 @@
   </style>
 </head>
 <body>
-  <header>
-    <img src="EA.png" alt="Eduardo Acosta Log" />
-    <nav>
+    <div class="sidenav">
+      <img src="EA.png" alt="lalo" Class="sidenav-photo" />
       <a href="#about">About Me</a>
       <a href="#skills">Skills</a>
+      <a href="#research">Research</a>
       <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
+      <a href="#ordlead">Organization & Leadership</a>
       <a href="#resume">Resume</a>
-    </nav>
+      <a href="#contact">Contact</a>
+    </div>z
   </header>
 
   <div class="container">
 
+    <section id ="about">
     <div id="intro-wrapper">
   <div id="intro-photo">
-    <img src="lalo.JPG" alt="Eduardo Acosta" />
+    <img src="lalo.jpg" alt="Eduardo Acosta" />
   </div>
   <div id="intro-text">
     <h2>About Me</h2>
@@ -183,11 +182,40 @@
     </p>
   </div>
 </div>
+</section>
 
 
     <section id="skills">
-      <h1>Skills</h1>
-      <p><strong>Programming Languages:</strong> C++, SQL, HTML, JavaScript, Julia, Python, Assembly, Unix/Linux shell scripting.</p>
+      <div id ="Sname">
+        <h1>Skills</h1>
+      </div>
+      <p><strong>Languages:</strong> Python, JavaScript, C++, PHP, Assembly, Julia, SQL, HTML</p>
+      <p><strong>Frameworks/Tools:</strong>React, Node.js, Unix/Linux Shell, Git, STL, Excel, Access, Power BI, Jupyter Notebooks</p>
+      <p><strong>Other:</strong>Object-Oriented Programming, Data Structures & Algorithms, Memory Management, File I/O, Templates, Exception Handling, System & Process Management, Database Design, PC/Hardware Troubleshooting, Bilingual (English/Spanish)</p>
+    </section>
+
+    <section id="research">
+    <div id="Rname">
+      <h1>Research</h1>
+      </div>
+      <p><strong>Undergraduate Researcher – Evaluating Notebook Reproducibility | NIU – DeKalb, IL<br><em>September 2025 - Present</em> </strong></p>
+      <ul>
+        <li>
+          Conduct research on reproducibility in computational notebooks (e.g., Jupyter), focusing on optimizing data-driven workflows and machine learning pipelines for reliable results.
+        </li>
+        <li>
+          Compare original and reproduced notebooks to identify errors and inconsistencies across data processing, model outputs, and experimental workflows to improve accuracy.
+        </li>
+        <li>
+          Design and implement improved notebook structure visualizations, including minimaps and graphs, to enhance readability and interpretability of complex data and machine learning workflows.
+        </li>
+        <li>
+         Develop interactive and reactive notebook outputs that facilitate exploratory data analysis, visualization, and experimentation within machine learning projects.
+        </li>
+        <li>
+          Apply Python, Jupyter, and relevant data science and machine learning libraries, while leveraging JavaScript and TypeScript for advanced front-end visualization features.
+        </li>
+      </ul>
     </section>
 
     <section id="projects">
@@ -205,6 +233,10 @@
       </ul>
     </section>
 
+    <section id="ordlead">
+      <h1>Organizations and Leadership</h1>
+    </section>
+
      <section id="resume">
   <h2>Resume</h2>
   <div class="pdf-container">
@@ -215,7 +247,7 @@
     <section id="contact">
       <h1>Contact</h1>
       <p>Email: <a href="mailto:laloacodelreal@gmail.com">laloacodelreal@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/eduardoaco" target="_blank">www.linkedin.com/in/eduardoaco</a></p>
+      <p>LinkedIn: <a href="www.linkedin.com/in/eduardoaco" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/eduardoaco</a></p>
     </section>
 
 
@@ -225,9 +257,4 @@
     &copy; 2025 Eduardo Acosta | All Rights Reserved
   </footer>
 </body>
-
 </html>
-
-
-
-

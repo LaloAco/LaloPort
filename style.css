@@ -3,30 +3,30 @@ html {
     scroll-behavior: smooth;
 }
 
-#skills {
+#Sname {
     text-align: center; /* centers inline or inline-block elements inside */
-    margin: 40px 0;     /* optional spacing */
+}
+
+#Rname
+{
+    text-align: center; /* centers inline or inline-block elements inside */
 }
 
 #projects {
     text-align: center; /* centers inline or inline-block elements inside */
-    margin: 40px 0;     /* optional spacing */
 }
 
-#education {
+#ordlead {
     text-align: center; /* centers inline or inline-block elements inside */
-    margin: 40px 0;     /* optional spacing */
 }
 
 #contact {
     text-align: center; /* centers inline or inline-block elements inside */
-    margin: 40px 0;     /* optional spacing */
 }
 
 #resume {
     font-size: 1.3rem;
     text-align: center; /* centers inline or inline-block elements inside */
-    margin: 40px 0;     /* optional spacing */
 }
 
 #resume .pdf-container embed {
@@ -37,15 +37,52 @@ html {
     border-radius: 8px;      /* optional rounding */
 }
 
-#education h2 {
-    text-align: center;   /* centers only the heading */
-    color: #126D71;       /* keep it green */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 250px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background: linear-gradient(to top, #0F5255, #126D71);
+  color: #E0F2F1; /* Black */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
 }
 
-#education p,
-#education ul,
-#education li {
-    text-align: left;     /* keeps the rest left-aligned */
-    color: #000;          /* black text */
+/* The navigation menu links */
+.sidenav a {
+  padding: 20px 20px 20px 20px;
+  font-family: 'ubuntu';
+  font-size: 25px;line-height: 1.6;
+  color: #FFFFFF;
+  display: block;
 }
 
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+   color: #FFFFFF;
+  background-color: rgba(255,255,255,0.1); /* subtle highlight */
+  border-radius: 5px;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 5px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.sidenav-photo {
+  width: 100px;       /* adjust size */
+  height: 100px;      /* keep it square or use auto for aspect ratio */
+  border-radius: 30%; /* makes it circular */
+  display: block;
+  margin: 0 20px auto; /* centers and adds space below */
+  border: 2px solid #E0F2F1; /* optional border for contrast */
+}
